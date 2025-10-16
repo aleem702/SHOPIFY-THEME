@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Modern Shopify 2.0 Theme
 
 A complete, modern Shopify 2.0 theme with trust-building features, conversion optimization, and seasonal flexibility.
@@ -17,3 +18,6 @@ A complete, modern Shopify 2.0 theme with trust-building features, conversion op
 
 ## Support
 For support and customization help, please refer to the documentation.
+=======
+# SHOPIFY-THEME
+>>>>>>> f2b6669f43f293baa3779aef07927750ea452515

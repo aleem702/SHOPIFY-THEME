@@ -1,0 +1,333 @@
+{
+  "current": {
+    "colors": {
+      "text": "#121212",
+      "background_1": "#FFFFFF",
+      "background_2": "#F6F6F6",
+      "accent_1": "#2563EB",
+      "accent_2": "#1D4ED8",
+      "solid_button_labels": "#FFFFFF",
+      "outline_button_labels": "#2563EB",
+      "shadow": "#121212"
+    },
+    "typography": {
+      "font_body_family": "assistant_n4",
+      "font_body_style": "normal",
+      "font_body_weight": "400",
+      "font_heading_family": "assistant_n4",
+      "font_heading_style": "normal",
+      "font_heading_weight": "400",
+      "body_scale": 100,
+      "heading_scale": 100
+    },
+    "layout": {
+      "page_width": 1200,
+      "spacing_sections": 0
+    },
+    "buttons": {
+      "radius": 0,
+      "border_thickness": 1,
+      "border_opacity": 100,
+      "shadow_opacity": 0,
+      "shadow_horizontal_offset": 0,
+      "shadow_vertical_offset": 4,
+      "shadow_blur_radius": 5
+    },
+    "product_cards": {
+      "style": "card",
+      "image_padding": 0,
+      "corner_radius": 0,
+      "text_alignment": "left",
+      "border_thickness": 0,
+      "border_opacity": 10,
+      "shadow_opacity": 0,
+      "shadow_horizontal_offset": 0,
+      "shadow_vertical_offset": 4,
+      "shadow_blur_radius": 5
+    },
+    "media": {
+      "radius": 0,
+      "border_thickness": 0,
+      "border_opacity": 5,
+      "shadow_opacity": 0,
+      "shadow_horizontal_offset": 0,
+      "shadow_vertical_offset": 4,
+      "shadow_blur_radius": 5,
+      "padding": 0
+    },
+    "social_media": {
+      "twitter_link": "",
+      "facebook_link": "",
+      "pinterest_link": "",
+      "instagram_link": "",
+      "tiktok_link": "",
+      "tumblr_link": "",
+      "snapchat_link": "",
+      "youtube_link": "",
+      "vimeo_link": ""
+    },
+    "favicon": "",
+    "trust_badges": {
+      "badge_1": "Secure Checkout",
+      "badge_2": "30-Day Returns",
+      "badge_3": "Free Shipping"
+    },
+    "shipping_policy": "Free shipping on orders over $50",
+    "predictive_search": {
+      "enabled": true,
+      "show_vendor": false,
+      "show_price": true
+    }
+  },
+  "presets": {
+    "default": {
+      "colors": {
+        "text": "#121212",
+        "background_1": "#FFFFFF",
+        "background_2": "#F6F6F6",
+        "accent_1": "#2563EB",
+        "accent_2": "#1D4ED8",
+        "solid_button_labels": "#FFFFFF",
+        "outline_button_labels": "#2563EB",
+        "shadow": "#121212"
+      },
+      "typography": {
+        "font_body_family": "assistant_n4",
+        "font_body_style": "normal",
+        "font_body_weight": "400",
+        "font_heading_family": "assistant_n4",
+        "font_heading_style": "normal",
+        "font_heading_weight": "400",
+        "body_scale": 100,
+        "heading_scale": 100
+      },
+      "layout": {
+        "page_width": 1200,
+        "spacing_sections": 0
+      },
+      "buttons": {
+        "radius": 0,
+        "border_thickness": 1,
+        "border_opacity": 100,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 4,
+        "shadow_blur_radius": 5
+      },
+      "product_cards": {
+        "style": "card",
+        "image_padding": 0,
+        "corner_radius": 0,
+        "text_alignment": "left",
+        "border_thickness": 0,
+        "border_opacity": 10,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 4,
+        "shadow_blur_radius": 5
+      },
+      "media": {
+        "radius": 0,
+        "border_thickness": 0,
+        "border_opacity": 5,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 4,
+        "shadow_blur_radius": 5,
+        "padding": 0
+      },
+      "social_media": {
+        "twitter_link": "",
+        "facebook_link": "",
+        "pinterest_link": "",
+        "instagram_link": "",
+        "tiktok_link": "",
+        "tumblr_link": "",
+        "snapchat_link": "",
+        "youtube_link": "",
+        "vimeo_link": ""
+      },
+      "favicon": "",
+      "trust_badges": {
+        "badge_1": "Secure Checkout",
+        "badge_2": "30-Day Returns",
+        "badge_3": "Free Shipping"
+      },
+      "shipping_policy": {
+        "show": true,
+        "text": "Free shipping on orders over $50"
+      },
+      "predictive_search": {
+        "enabled": true,
+        "show_vendor": false,
+        "show_price": true
+      }
+    },
+    "dark": {
+      "colors": {
+        "text": "#F9FAFB",
+        "background_1": "#111827",
+        "background_2": "#1F2937",
+        "accent_1": "#3B82F6",
+        "accent_2": "#2563EB",
+        "solid_button_labels": "#FFFFFF",
+        "outline_button_labels": "#3B82F6",
+        "shadow": "#000000"
+      },
+      "typography": {
+        "font_body_family": "assistant_n4",
+        "font_body_style": "normal",
+        "font_body_weight": "400",
+        "font_heading_family": "assistant_n4",
+        "font_heading_style": "normal",
+        "font_heading_weight": "400",
+        "body_scale": 100,
+        "heading_scale": 100
+      },
+      "layout": {
+        "page_width": 1200,
+        "spacing_sections": 0
+      },
+      "buttons": {
+        "radius": 8,
+        "border_thickness": 0,
+        "border_opacity": 0,
+        "shadow_opacity": 20,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 4,
+        "shadow_blur_radius": 8
+      },
+      "product_cards": {
+        "style": "card",
+        "image_padding": 0,
+        "corner_radius": 12,
+        "text_alignment": "left",
+        "border_thickness": 0,
+        "border_opacity": 0,
+        "shadow_opacity": 20,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 8,
+        "shadow_blur_radius": 16
+      },
+      "media": {
+        "radius": 12,
+        "border_thickness": 0,
+        "border_opacity": 0,
+        "shadow_opacity": 20,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 8,
+        "shadow_blur_radius": 16,
+        "padding": 0
+      },
+      "social_media": {
+        "twitter_link": "",
+        "facebook_link": "",
+        "pinterest_link": "",
+        "instagram_link": "",
+        "tiktok_link": "",
+        "tumblr_link": "",
+        "snapchat_link": "",
+        "youtube_link": "",
+        "vimeo_link": ""
+      },
+      "favicon": "",
+      "trust_badges": {
+        "badge_1": "Secure Checkout",
+        "badge_2": "30-Day Returns",
+        "badge_3": "Free Shipping"
+      },
+      "shipping_policy": {
+        "show": true,
+        "text": "Free shipping on orders over $50"
+      },
+      "predictive_search": {
+        "enabled": true,
+        "show_vendor": false,
+        "show_price": true
+      }
+    },
+    "minimal": {
+      "colors": {
+        "text": "#000000",
+        "background_1": "#FFFFFF",
+        "background_2": "#FFFFFF",
+        "accent_1": "#000000",
+        "accent_2": "#333333",
+        "solid_button_labels": "#FFFFFF",
+        "outline_button_labels": "#000000",
+        "shadow": "#000000"
+      },
+      "typography": {
+        "font_body_family": "assistant_n4",
+        "font_body_style": "normal",
+        "font_body_weight": "400",
+        "font_heading_family": "assistant_n4",
+        "font_heading_style": "normal",
+        "font_heading_weight": "600",
+        "body_scale": 100,
+        "heading_scale": 110
+      },
+      "layout": {
+        "page_width": 1000,
+        "spacing_sections": 20
+      },
+      "buttons": {
+        "radius": 0,
+        "border_thickness": 2,
+        "border_opacity": 100,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 0,
+        "shadow_blur_radius": 0
+      },
+      "product_cards": {
+        "style": "standard",
+        "image_padding": 0,
+        "corner_radius": 0,
+        "text_alignment": "left",
+        "border_thickness": 0,
+        "border_opacity": 0,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 0,
+        "shadow_blur_radius": 0
+      },
+      "media": {
+        "radius": 0,
+        "border_thickness": 0,
+        "border_opacity": 0,
+        "shadow_opacity": 0,
+        "shadow_horizontal_offset": 0,
+        "shadow_vertical_offset": 0,
+        "shadow_blur_radius": 0,
+        "padding": 0
+      },
+      "social_media": {
+        "twitter_link": "",
+        "facebook_link": "",
+        "pinterest_link": "",
+        "instagram_link": "",
+        "tiktok_link": "",
+        "tumblr_link": "",
+        "snapchat_link": "",
+        "youtube_link": "",
+        "vimeo_link": ""
+      },
+      "favicon": "",
+      "trust_badges": {
+        "badge_1": "Secure Checkout",
+        "badge_2": "30-Day Returns",
+        "badge_3": "Free Shipping"
+      },
+      "shipping_policy": {
+        "show": true,
+        "text": "Free shipping on orders over $50"
+      },
+      "predictive_search": {
+        "enabled": true,
+        "show_vendor": false,
+        "show_price": true
+      }
+    }
+  }
+}

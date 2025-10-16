@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "mobile_menu_type": "drawer"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "heading": "Your Cart",
+        "show_vendor": false,
+        "show_cart_note": true,
+        "color_scheme": "background-1",
+        "enable_cart_notes": true,
+        "show_taxes_included": true,
+        "cart_checkout_button": true,
+        "cart_drawer_collection": "",
+        "show_related_products": true,
+        "related_products_count": 4
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_paragraph_content": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    }
+  },
+  "order": [
+    "header",
+    "cart-drawer",
+    "footer"
+  ]
+}

@@ -1,0 +1,204 @@
+{%- liquid
+  assign product_card_class = 'product-card'
+  if card_class
+    assign product_card_class = product_card_class | append: ' ' | append: card_class
+  endif
+-%}
+
+<div class="{{ product_card_class }}" data-product-id="{{ product.id }}">
+  <div class="product-card__image">
+    {%- if product.featured_media -%}
+      <a href="{{ product.url }}">
+        <img
+          src="{{ product.featured_media | image_url: width: 400 }}"
+          alt="{{ product.featured_media.alt | escape }}"
+          loading="lazy"
+          width="{{ product.featured_media.width }}"
+          height="{{ product.featured_media.height }}"
+        >
+      </a>
+    {%- endif -%}
+    
+    {%- if product.compare_at_price > product.price -%}
+      <div class="product-card__badge">
+        Sale
+      </div>
+    {%- endif -%}
+    
+    {%- if show_quick_add -%}
+      <div class="product-card__quick-add">
+        <button class="product-card__quick-add-button" 
+                data-product-id="{{ product.id }}"
+                data-variant-id="{{ product.selected_or_first_available_variant.id }}">
+          Quick Add
+        </button>
+      </div>
+    {%- endif -%}
+  </div>
+  
+  <div class="product-card__content">
+    <h3 class="product-card__title">
+      <a href="{{ product.url }}">{{ product.title | escape }}</a>
+    </h3>
+    
+    {%- if show_vendor and product.vendor != blank -%}
+      <p class="product-card__vendor">{{ product.vendor }}</p>
+    {%- endif -%}
+    
+    <div class="product-card__price">
+      {% render 'price', product: product, price_class: '' %}
+    </div>
+    
+    {%- if show_rating and product.metafields.reviews.rating.value != blank -%}
+      <div class="product-card__rating">
+        {%- assign rating = product.metafields.reviews.rating.value -%}
+        {%- for i in (1..5) -%}
+          {%- if i <= rating -%}
+            <span class="product-card__star">★</span>
+          {%- else -%}
+            <span class="product-card__star">☆</span>
+          {%- endif -%}
+        {%- endfor -%}
+        <span class="product-card__rating-count">({{ product.metafields.reviews.rating_count.value }})</span>
+      </div>
+    {%- endif -%}
+    
+    {%- if show_description and product.description != blank -%}
+      <div class="product-card__description">
+        {{ product.description | truncate: 100 }}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<style>
+  .product-card {
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  .product-card__image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+  }
+
+  .product-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .product-card:hover .product-card__image img {
+    transform: scale(1.05);
+  }
+
+  .product-card__badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: {{ settings.colors_accent_1 }};
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    z-index: 2;
+  }
+
+  .product-card__quick-add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+  }
+
+  .product-card:hover .product-card__quick-add {
+    opacity: 1;
+  }
+
+  .product-card__quick-add-button {
+    background: {{ settings.colors_accent_1 }};
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .product-card__quick-add-button:hover {
+    background: {{ settings.colors_accent_2 }};
+  }
+
+  .product-card__content {
+    padding: 1.5rem;
+  }
+
+  .product-card__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: {{ settings.colors_text }};
+  }
+
+  .product-card__title a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .product-card__title a:hover {
+    color: {{ settings.colors_accent_1 }};
+  }
+
+  .product-card__vendor {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-card__price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: {{ settings.colors_accent_1 }};
+    margin-bottom: 1rem;
+  }
+
+  .product-card__rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .product-card__star {
+    color: #ffd700;
+    font-size: 1rem;
+  }
+
+  .product-card__rating-count {
+    font-size: 0.8rem;
+    color: #666;
+    margin-left: 0.5rem;
+  }
+
+  .product-card__description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+</style>

@@ -1,0 +1,27 @@
+{%- liquid
+  assign variant = product.selected_or_first_available_variant
+  assign money_price = variant.price | money
+  assign money_compare_at_price = variant.compare_at_price | money
+-%}
+
+<div class="price{% if price_class %} {{ price_class }}{% endif %}">
+  {%- if variant.compare_at_price > variant.price -%}
+    <span class="price__sale">
+      <span class="price__regular">{{ money_price }}</span>
+      <span class="price__compare">{{ money_compare_at_price }}</span>
+    </span>
+  {%- else -%}
+    <span class="price__regular">{{ money_price }}</span>
+  {%- endif -%}
+  
+  {%- if variant.unit_price_measurement -%}
+    <div class="price__unit">
+      <span class="price__unit-price">{{ variant.unit_price | money }}</span>
+      <span class="price__unit-separator">/</span>
+      {%- if variant.unit_price_measurement.reference_value != 1 -%}
+        <span class="price__unit-reference">{{ variant.unit_price_measurement.reference_value }}</span>
+      {%- endif -%}
+      <span class="price__unit-measurement">{{ variant.unit_price_measurement.reference_unit }}</span>
+    </div>
+  {%- endif -%}
+</div>

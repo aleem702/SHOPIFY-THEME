@@ -1,53 +1,46 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "background-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "mobile_logo_position": "center",
-        "mobile_menu_type": "drawer"
-      }
-    },
-    "main-page": {
+    "main": {
       "type": "main-page",
       "settings": {
+        "heading_color": "#000000",
+        "heading_size": 40,
+        "heading_mob_size": 28,
         "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28,
-        "color_scheme": "background-1"
+        "padding_bottom": 36
       }
     },
-    "footer": {
-      "type": "footer",
+    "track_your_order_z3PqcW": {
+      "type": "track-your-order",
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "newsletter_paragraph_content": "<p>Be the first to know about new collections and exclusive offers.</p>",
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "heading": "Track your order",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet nisi eget gravida vestibulum. Ut rutrum facilisis leo, ac vulputate elit consectetur ut. Morbi rhoncus mauris ligula, et pulvinar nulla rhoncus sit amet. Pellentesque a quam id odio malesuada auctor.</p>",
+        "button_label": "Track",
+        "heading_size": 40,
+        "heading_mob_size": 28,
+        "body_font_size": 16,
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "body_color": "#000000",
+        "bolded_body_color": "#000000",
+        "color_scheme2": "accent-1",
+        "color_scheme": "accent-2",
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
-    "header",
-    "main-page",
-    "footer"
+    "main",
+    "track_your_order_z3PqcW"
   ]
 }

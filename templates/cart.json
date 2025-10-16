@@ -1,58 +1,42 @@
 {
   "sections": {
-    "header": {
-      "type": "header",
+    "cart-items": {
+      "type": "main-cart-items",
       "settings": {
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "background-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "mobile_logo_position": "center",
-        "mobile_menu_type": "drawer"
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "cart-drawer": {
-      "type": "cart-drawer",
+    "cart-footer": {
+      "type": "main-cart-footer",
       "settings": {
-        "heading": "Your Cart",
-        "show_vendor": false,
-        "show_cart_note": true,
-        "color_scheme": "background-1",
-        "enable_cart_notes": true,
-        "show_taxes_included": true,
-        "cart_checkout_button": true,
-        "cart_drawer_collection": "",
-        "show_related_products": true,
-        "related_products_count": 4
-      }
-    },
-    "footer": {
-      "type": "footer",
-      "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "newsletter_paragraph_content": "<p>Be the first to know about new collections and exclusive offers.</p>",
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
+        "padding_top": 0,
+        "padding_bottom": 24
+      },
+      "blocks": {
+        "dec6ac13-eef3-4b4c-900a-e550eb977500": {
+          "type": "discount_field",
+          "disabled": true,
+          "settings": {}
+        },
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "dec6ac13-eef3-4b4c-900a-e550eb977500",
+        "subtotal",
+        "buttons"
+      ]
     }
   },
   "order": [
-    "header",
-    "cart-drawer",
-    "footer"
+    "cart-items",
+    "cart-footer"
   ]
 }

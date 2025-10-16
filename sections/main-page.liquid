@@ -1,22 +1,45 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+
 {%- style -%}
-  .main-page {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+
+  #heading-{{ section.id }}{
+    font-weight: bold;
+    color: {{ section.settings.heading_color }};
   }
 
-  @media screen and (min-width: 750px) {
-    .main-page {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  #heading-{{ section.id }}{
+    font-size: {{ section.settings.heading_size }}px!important;
+    line-height: {{ section.settings.heading_size | plus: 8 }}px!important;
+  }
+
+  @media (max-width: 768px){
+    #heading-{{ section.id }}{
+      font-size: {{ section.settings.heading_mob_size }}px!important;
+      line-height: {{ section.settings.heading_mob_size | plus: 8 }}px!important;
+  }
   }
 {%- endstyle -%}
 
-<div class="main-page color-{{ section.settings.color_scheme }} gradient" {{ section.shopify_attributes }}>
-  <div class="page-width">
-    <div class="main-page__content">
-      {{ page.content }}
-    </div>
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <h1 id="heading-{{ section.id }}" class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  <div class="rte">
+    {{ page.content }}
   </div>
 </div>
 
@@ -28,7 +51,41 @@
   "settings": [
     {
       "type": "header",
-      "content": "t:sections.all.section_padding.content"
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop heading size",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "heading_mob_size",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile heading size",
+      "default": 28
+    },
+    {
+      "type": "header",
+      "content": "Styling"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
     },
     {
       "type": "range",
@@ -49,34 +106,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        },
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
     }
   ]
 }

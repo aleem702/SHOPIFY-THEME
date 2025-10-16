@@ -1,209 +1,997 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "settings": {
-        "message": "Free shipping on orders over $50!",
-        "link": "",
-        "color_scheme": "background-1",
-        "show_line_separator": true,
-        "announcement_text_size": "small"
-      }
-    },
-    "header": {
-      "type": "header",
-      "settings": {
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
-        "color_scheme": "background-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "mobile_logo_position": "center",
-        "mobile_menu_type": "drawer"
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
+    "image_banner_TVECWz": {
+      "type": "image-banner",
       "blocks": {
-        "slide_1": {
-          "type": "slide",
+        "heading_j6VgPc": {
+          "type": "heading",
           "settings": {
-            "image": "",
-            "heading": "Welcome to Our Store",
-            "subheading": "Discover amazing products",
-            "button_label": "Shop Now",
-            "button_link": "/collections/all",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "image_height": "large"
-          }
-        }
-      },
-      "block_order": ["slide_1"],
-      "settings": {
-        "layout": "full_bleed",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "image_height": "large",
-        "desktop_image_width": "full",
-        "mobile_image_width": "full"
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "settings": {
-        "product": "",
-        "media_aspect_ratio": "adapt",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "color_scheme": "background-1",
-        "image_behavior": "ambient",
-        "mobile_image_width": "100%",
-        "mobile_image_height": "100%"
-      }
-    },
-    "product-grid": {
-      "type": "product-grid",
-      "settings": {
-        "heading": "Featured Products",
-        "heading_size": "h2",
-        "description": "<p>Discover our best-selling products</p>",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "column_spacing": "medium",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "enable_filtering": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "countdown-timer": {
-      "type": "countdown-timer",
-      "settings": {
-        "heading": "Limited Time Offer",
-        "subheading": "Don't miss out on this amazing deal!",
-        "end_date": "2024-12-31",
-        "end_time": "23:59",
-        "color_scheme": "accent-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_1": {
-          "type": "testimonial",
-          "settings": {
-            "text": "This product changed my life! Amazing quality and fast shipping.",
-            "author": "Sarah Johnson",
-            "image": "",
-            "rating": 5
+            "heading": "",
+            "size": 40,
+            "mobile_font_size": 25,
+            "color": "#000000",
+            "highlighted_color": "#000000"
           }
         },
-        "testimonial_2": {
-          "type": "testimonial",
+        "text_BpPwbx": {
+          "type": "text",
           "settings": {
-            "text": "Excellent customer service and beautiful products. Highly recommended!",
-            "author": "Mike Chen",
-            "image": "",
-            "rating": 5
+            "text": "",
+            "size": 15,
+            "color": "#000000",
+            "highlighted_color": "#000000"
+          }
+        },
+        "buttons_k9izFg": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/mini-christmas-tree-craft-set™",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        },
+        "text_EU99WJ": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 11,
+            "color": "#000000",
+            "highlighted_color": "#000000"
           }
         }
       },
-      "block_order": ["testimonial_1", "testimonial_2"],
+      "block_order": [
+        "heading_j6VgPc",
+        "text_BpPwbx",
+        "buttons_k9izFg",
+        "text_EU99WJ"
+      ],
       "settings": {
-        "heading": "What Our Customers Say",
-        "heading_size": "h2",
-        "image_height": "adapt",
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "show_text_box": false,
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-1"
+      }
+    },
+    "scrolling_images_TY87Nx": {
+      "type": "scrolling-images",
+      "blocks": {
+        "slide_bAByQU": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_YnxLgq": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_z4R6Ex": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        },
+        "slide_DK6kcP": {
+          "type": "slide",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_bAByQU",
+        "slide_YnxLgq",
+        "slide_z4R6Ex",
+        "slide_DK6kcP"
+      ],
+      "settings": {
+        "section_heading": "AS SEEN ON",
+        "font_size": 20,
+        "mobile_font_size": 15,
+        "scrolling_velocity": 2,
+        "slider_gap": 58,
+        "icon_width": 170,
+        "heading_alignment": "center",
+        "slider_direction": "right",
+        "pause_hover": true,
+        "header_color": "#000000",
+        "header_highlighted_color": "#000000",
+        "color_scheme": "accent-1",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "animated_pulsing_BcWKDd": {
+      "type": "animated_pulsing",
+      "settings": {
+        "animation_divider_size": "50px",
+        "color_scheme": "accent-2",
+        "glow_animation_intensity": "strong",
+        "glow_animation_speed": 4,
+        "glow_animation_flip": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_FFrhby": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/S79a31afe26f0412c8cc92741157d9167F.webp",
+        "heading": "",
+        "defer_loading_image": false,
+        "text": "<p><br /><br />✔ <br /><br />✔ <br /><br />✔ </p>",
+        "layout": "image_first",
+        "height": "adapt",
+        "desktop_content_alignment": "left",
+        "desktop_image_width": "medium",
+        "desktop_font_size": 35,
+        "mobile_font_size": 25,
+        "font_size": 15,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#000000",
+        "body_highlighted_color": "#000000",
+        "section_color_scheme": "accent-2",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "feature_icons_MMNaQM": {
+      "type": "feature-icons",
+      "blocks": {
+        "column_p6KBTG": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M852-212 732-332l56-56 120 120-56 56ZM708-692l-56-56 120-120 56 56-120 120Zm-456 0L132-812l56-56 120 120-56 56ZM108-212l-56-56 120-120 56 56-120 120Zm246-75 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-361Z\"/></svg>",
+            "title": "",
+            "text": "<p>Craft lasting family memories</p>",
+            "custom_icon_size": 50,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_kbGexz": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M480-80 120-436l200-244h320l200 244L480-80ZM183-680l-85-85 57-56 85 85-57 56Zm257-80v-120h80v120h-80Zm335 80-57-57 85-85 57 57-85 85ZM480-192l210-208H270l210 208ZM358-600l-99 120h442l-99-120H358Z\"/></svg>",
+            "title": "",
+            "text": "<p>Express your unique style</p>",
+            "custom_icon_size": 50,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_ijLX4A": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M240-40v-329L110-580l185-300h370l185 300-130 211v329l-240-80-240 80Zm80-111 160-53 160 53v-129H320v129Zm20-649L204-580l136 220h280l136-220-136-220H340Zm98 383L296-558l57-57 85 85 169-170 57 56-226 227ZM320-280h320-320Z\"/></svg>",
+            "title": "",
+            "text": "<p>Eco-friendly and reusable decor</p>",
+            "custom_icon_size": 50,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_jtc7mK": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m520-260 140-140q11-11 17.5-26t6.5-32q0-34-24-58t-58-24q-19 0-37.5 11T520-492q-30-28-47-38t-35-10q-34 0-58 24t-24 58q0 17 6.5 32t17.5 26l140 140Zm336-130L570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM513-160l286-286-353-354H160v286l353 354ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Zm220 160Z\"/></svg>",
+            "title": "",
+            "text": "<p>Add warmth to your space</p>",
+            "custom_icon_size": 50,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "column_p6KBTG",
+        "column_kbGexz",
+        "column_ijLX4A",
+        "column_jtc7mK"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "heading_size": 40,
+        "heading_mob_size": 28,
+        "body_size": 16,
+        "columns_desktop": 4,
+        "padding_horizontal_desktop": 50,
+        "columns_mobile": "2",
+        "icon_size": "medium",
+        "swipe_on_mobile": false,
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "body_color": "#000000",
+        "bolded_body_color": "#000000",
+        "background_style": "none",
+        "card_color_scheme": "accent-2",
+        "color_scheme": "accent-2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "borders_kfpryb": {
+      "type": "borders",
+      "settings": {
+        "shape": "diagonal",
+        "border_size": "60",
+        "flip_horizontal": false,
+        "flip_vertical": true,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "key_features_Hcx7NX": {
+      "type": "key-features",
+      "settings": {
+        "main_headings": "Cherish Every Moment, Craft Lasting Holiday Memories",
+        "center_image": "shopify://shop_images/S939f64e57a5d42e5b74c5916c955524cu.webp",
+        "list_text1": "Versatile size options",
+        "icon_list-img1": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+        "list_layout_1": "column",
+        "custom_icon1_size": 30,
+        "list_text2": "Durable and reusable",
+        "icon_list-img2": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+        "list_layout_2": "column",
+        "custom_icon2_size": 30,
+        "list_text3": "Encourages family engagement",
+        "icon_list-img3": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+        "list_layout_3": "column",
+        "custom_icon3_size": 30,
+        "list_text4": "Eco-friendly crafting solution",
+        "icon_list-img4": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+        "list_layout_4": "column",
+        "custom_icon4_size": 30,
+        "heading_size": 35,
+        "heading_mob_size": 25,
+        "body_size": 16,
+        "heading_color": "#000000",
+        "heading_lighlighted_color": "#000000",
+        "body_color": "#000000",
+        "body_highlighted_color": "#000000",
+        "icon_color": "#000000",
+        "card_color_scheme": "accent-2",
+        "color_scheme": "accent-1",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_BQkeEV": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "",
+        "text": "",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/mini-christmas-tree-craft-set™",
+        "button_label_2": "",
+        "button_link_2": "",
+        "content_alignment": "center",
+        "heading_font_size": 40,
+        "mobile_heading_font_size": 23,
+        "body_font_size": 16,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#302f2f",
+        "body_highlighted_color": "#302f2f",
+        "color_scheme": "accent-1",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_bJjAQw": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "",
+        "text": "<p></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": "",
+        "content_alignment": "center",
+        "heading_font_size": 30,
+        "mobile_heading_font_size": 20,
+        "body_font_size": 16,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#302f2f",
+        "body_highlighted_color": "#302f2f",
+        "color_scheme": "accent-2",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "rich_text_cDkk6n": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": "",
+        "content_alignment": "center",
+        "heading_font_size": 35,
+        "mobile_heading_font_size": 25,
+        "body_font_size": 16,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#302f2f",
+        "body_highlighted_color": "#302f2f",
+        "color_scheme": "accent-1",
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_ydmKk4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AqacRC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder_hands_still.webp",
+            "title": "",
+            "text": "<p></p>",
+            "heading_size": 24,
+            "text_size": 16,
+            "link_label": "",
+            "link": "",
+            "heading_color": "#000000",
+            "bolded_heading_color": "#000000",
+            "text_color": "#000000",
+            "bolded_text_color": "#000000"
+          }
+        },
+        "column_UMiUVK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder_hands_still.webp",
+            "title": "",
+            "text": "<p></p>",
+            "heading_size": 24,
+            "text_size": 16,
+            "link_label": "",
+            "link": "",
+            "heading_color": "#000000",
+            "bolded_heading_color": "#000000",
+            "text_color": "#000000",
+            "bolded_text_color": "#000000"
+          }
+        },
+        "column_tPMynQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder_hands_still.webp",
+            "title": "",
+            "text": "<p></p>",
+            "heading_size": 24,
+            "text_size": 16,
+            "link_label": "",
+            "link": "",
+            "heading_color": "#000000",
+            "bolded_heading_color": "#000000",
+            "text_color": "#000000",
+            "bolded_text_color": "#000000"
+          }
+        },
+        "column_FVAjar": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder_hands_still.webp",
+            "title": "",
+            "text": "<p></p>",
+            "heading_size": 24,
+            "text_size": 16,
+            "link_label": "",
+            "link": "",
+            "heading_color": "#000000",
+            "bolded_heading_color": "#000000",
+            "text_color": "#000000",
+            "bolded_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "column_AqacRC",
+        "column_UMiUVK",
+        "column_tPMynQ",
+        "column_FVAjar"
+      ],
+      "settings": {
+        "title": "",
+        "button_label": "Try It Now",
+        "button_link": "shopify://products/mini-christmas-tree-craft-set™",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_spacing": "medium",
-        "text_alignment": "center",
+        "heading_size": 40,
+        "heading_mob_size": 28,
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "color_scheme": "background-1",
-        "image_shape": "default",
-        "mobile_text_alignment": "center",
-        "show_image": true,
-        "columns_mobile": "1",
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "remove_navigation": false,
+        "overlay_opacity": 100,
+        "card_bg_color": "rgb(0,0,0)",
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "color_scheme": "accent-1",
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "borders_qyEgUM": {
+      "type": "borders",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28,
-        "heading": "Subscribe to our newsletter",
-        "paragraph_content": "<p>Be the first to know about new products and exclusive offers.</p>",
-        "button_label": "Subscribe",
-        "show_social": true
+        "shape": "diagonal",
+        "border_size": "60",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "footer": {
-      "type": "footer",
+    "borders_aQkpfw": {
+      "type": "borders",
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "newsletter_paragraph_content": "<p>Be the first to know about new collections and exclusive offers.</p>",
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "shape": "diagonal",
+        "border_size": "60",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "testimonials_2_nHX7mT": {
+      "type": "testimonials",
+      "blocks": {
+        "slide_AAdf8g": {
+          "type": "slide",
+          "settings": {
+            "review_heading": "Insert review title here",
+            "review_text": "Insert review text here",
+            "review_name": "Insert review author name here",
+            "num_stars": 5,
+            "review_star_size": 20,
+            "review_slide_heading_size": 20,
+            "review_slide_text_size": 15,
+            "review_heading_color": "#000000",
+            "review_bolded_heading_color": "#000000",
+            "review_body_color": "#000000",
+            "review_bolded_body_color": "#000000",
+            "author_name_color": "#000000"
+          }
+        },
+        "slide_VTndgi": {
+          "type": "slide",
+          "settings": {
+            "review_heading": "Insert review title here",
+            "review_text": "Insert review text here",
+            "review_name": "Insert review author name here",
+            "num_stars": 5,
+            "review_star_size": 20,
+            "review_slide_heading_size": 20,
+            "review_slide_text_size": 15,
+            "review_heading_color": "#000000",
+            "review_bolded_heading_color": "#000000",
+            "review_body_color": "#000000",
+            "review_bolded_body_color": "#000000",
+            "author_name_color": "#000000"
+          }
+        },
+        "slide_BUbftW": {
+          "type": "slide",
+          "settings": {
+            "review_heading": "Insert review title here",
+            "review_text": "Insert review text here",
+            "review_name": "Insert review author name here",
+            "num_stars": 5,
+            "review_star_size": 20,
+            "review_slide_heading_size": 20,
+            "review_slide_text_size": 15,
+            "review_heading_color": "#000000",
+            "review_bolded_heading_color": "#000000",
+            "review_body_color": "#000000",
+            "review_bolded_body_color": "#000000",
+            "author_name_color": "#000000"
+          }
+        },
+        "slide_HDFqWP": {
+          "type": "slide",
+          "settings": {
+            "review_heading": "Insert review title here",
+            "review_text": "Insert review text here",
+            "review_name": "Insert review author name here",
+            "num_stars": 5,
+            "review_star_size": 20,
+            "review_slide_heading_size": 20,
+            "review_slide_text_size": 15,
+            "review_heading_color": "#000000",
+            "review_bolded_heading_color": "#000000",
+            "review_body_color": "#000000",
+            "review_bolded_body_color": "#000000",
+            "author_name_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "slide_AAdf8g",
+        "slide_VTndgi",
+        "slide_BUbftW",
+        "slide_HDFqWP"
+      ],
+      "settings": {
+        "section_heading": "What Our Customers Say",
+        "show_overall_rating": true,
+        "overall_rating_value": 4.8,
+        "heading_font_size": 35,
+        "mobile_heading_font_size": 25,
+        "star_size": 23,
+        "rating_font_size": 16,
+        "sliders_per_view": 3,
+        "show_navigation_buttons": true,
+        "slide_box_shadow": true,
+        "star_color_scheme": "accent-3",
+        "slide_background_color": "#ffffff",
+        "left_right_icon_color": "#000000",
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "color_scheme": "accent-1",
+        "section_padding_top": 34,
+        "section_padding_bottom": 58
+      }
+    },
+    "borders_fVa3et": {
+      "type": "borders",
+      "settings": {
+        "shape": "waves",
+        "border_size": "90",
+        "flip_horizontal": true,
+        "flip_vertical": false,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "comparison_table_AfbEir": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_YnFNyW": {
+          "type": "row",
+          "settings": {
+            "benefit": "DIY Craft Experience",
+            "us": true,
+            "others": false,
+            "feature_text_color": "#383838",
+            "heading_highlighted_color": "#383838"
+          }
+        },
+        "row_L4kLJm": {
+          "type": "row",
+          "settings": {
+            "benefit": "Eco-Friendly Design",
+            "us": true,
+            "others": false,
+            "feature_text_color": "#383838",
+            "heading_highlighted_color": "#383838"
+          }
+        },
+        "row_DYf6QH": {
+          "type": "row",
+          "settings": {
+            "benefit": "Durable Quality Build",
+            "us": true,
+            "others": false,
+            "feature_text_color": "#383838",
+            "heading_highlighted_color": "#383838"
+          }
+        },
+        "row_RnAejR": {
+          "type": "row",
+          "settings": {
+            "benefit": "Customizable Decor",
+            "us": true,
+            "others": false,
+            "feature_text_color": "#383838",
+            "heading_highlighted_color": "#383838"
+          }
+        },
+        "row_PLMpdR": {
+          "type": "row",
+          "settings": {
+            "benefit": "Perfect for Families",
+            "us": true,
+            "others": false,
+            "feature_text_color": "#383838",
+            "heading_highlighted_color": "#383838"
+          }
+        }
+      },
+      "block_order": [
+        "row_YnFNyW",
+        "row_L4kLJm",
+        "row_DYf6QH",
+        "row_RnAejR",
+        "row_PLMpdR"
+      ],
+      "settings": {
+        "content_heading": "Crafting Lasting Memories",
+        "body_content": "<p> Experience a unique blend of creativity and sustainability with our enchanting mini trees, designed to foster connection and lasting holiday traditions, setting them apart from ordinary decor options. </p>",
+        "button_label": "Shop Now",
+        "link": "shopify://products/mini-christmas-tree-craft-set™",
+        "us_label": "",
+        "other_brands_label": "Others",
+        "content_alignment": "center",
+        "layout_desktop": "table_second",
+        "layout_mobile": "table_second",
+        "heading_size": 35,
+        "heading_mob_size": 25,
+        "body_size": 16,
+        "logo_width": 90,
+        "mobile_logo_width": 60,
+        "benefits_desktop_size": 16,
+        "benefits_mobile_size": 14,
+        "bold_features_text": false,
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "body_color": "#757575",
+        "bolded_body_color": "#757575",
+        "table_border_color": "#d6d6d6",
+        "features_background_color": "#eaeaea",
+        "self_cells_background_color": "accent-1",
+        "icon_cells_background_color": "#eaeaea",
+        "cell_headers_text_color": "#1e1e1e",
+        "checkmark_color": "#4bb82c",
+        "x_color": "#da6262",
+        "color_scheme": "accent-2",
+        "section_padding_top_desktop": 40,
+        "section_padding_bottom_desktop": 40
+      }
+    },
+    "borders_RPB7a9": {
+      "type": "borders",
+      "settings": {
+        "shape": "waves",
+        "border_size": "90",
+        "flip_horizontal": false,
+        "flip_vertical": true,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_HFVmpp": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_31_2025_01_08_14_PM.png",
+        "heading": "Our 30-Day Risk-Free Guarantee",
+        "defer_loading_image": true,
+        "text": "<p>You can confidently try our enchanting decor with our 30-day money-back guarantee—if it doesn't bring the joy you expect, simply return it for a full refund. Enjoy a risk-free experience that ensures your happiness and satisfaction this season!</p>",
+        "layout": "image_first",
+        "height": "adapt",
+        "desktop_content_alignment": "center",
+        "desktop_image_width": "small",
+        "desktop_font_size": 35,
+        "mobile_font_size": 25,
+        "font_size": 15,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#000000",
+        "body_highlighted_color": "#000000",
+        "section_color_scheme": "accent-1",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "borders_FQhyAq": {
+      "type": "borders",
+      "settings": {
+        "shape": "waves",
+        "border_size": "90",
+        "flip_horizontal": true,
+        "flip_vertical": false,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_YWm968": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UNPd8e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What sizes are available for these mini trees?",
+            "row_content": "<p>You can choose from three convenient sizes: 15cm, 20cm, and 40cm. Whether you want to adorn your desk, table, or hang them as delightful ornaments, there's a perfect size to fit your decorating needs!</p>",
+            "show_custom_icon": true,
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+            "heading_color": "#383838",
+            "heading_highlighted_color": "#383838",
+            "body_color": "#302f2f",
+            "body_highlighted_color": "#302f2f"
+          }
+        },
+        "collapsible_row_zMnUqg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are these trees easy to customize and decorate?",
+            "row_content": "<p>Absolutely! Each tree serves as a blank canvas for your creativity. You can embellish them with your favorite ornaments, lights, or garlands, allowing you and your family to personalize them to reflect your unique style and holiday spirit!</p>",
+            "show_custom_icon": true,
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+            "heading_color": "#383838",
+            "heading_highlighted_color": "#383838",
+            "body_color": "#302f2f",
+            "body_highlighted_color": "#302f2f"
+          }
+        },
+        "collapsible_row_YEExF7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can these mini trees withstand multiple uses over the years?",
+            "row_content": "<p>Yes, they are built with a sturdy base and crafted for durability. Designed for long-term use, these trees will withstand the test of time and be a beloved part of your holiday celebrations for many seasons to come!</p>",
+            "show_custom_icon": true,
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+            "heading_color": "#383838",
+            "heading_highlighted_color": "#383838",
+            "body_color": "#302f2f",
+            "body_highlighted_color": "#302f2f"
+          }
+        },
+        "collapsible_row_wDfgcR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do these trees promote family bonding during the holiday season?",
+            "row_content": "<p>These trees encourage families to come together and craft them as a team. Picture the joy and laughter as you decorate together, creating cherished memories. Each tree can become a symbol of your shared experiences and holiday traditions!</p>",
+            "show_custom_icon": true,
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z\"/></svg>",
+            "heading_color": "#383838",
+            "heading_highlighted_color": "#383838",
+            "body_color": "#302f2f",
+            "body_highlighted_color": "#302f2f"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UNPd8e",
+        "collapsible_row_zMnUqg",
+        "collapsible_row_YEExF7",
+        "collapsible_row_wDfgcR"
+      ],
+      "settings": {
+        "heading": "Questions? We've Got You Covered",
+        "desktop_layout": "image_first",
+        "image_ratio": "adapt",
+        "heading_alignment": "center",
+        "font_size": 35,
+        "mob_font_size": 25,
+        "layout": "none",
+        "bold_row_title": false,
+        "heading_color": "#383838",
+        "heading_highlighted_color": "#383838",
+        "color_scheme": "accent-2",
+        "row_container_bg_color_scheme": "#ffffff",
+        "icon_color": "#000000",
+        "arrow_color": "#000000",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "borders_qgCCKj": {
+      "type": "borders",
+      "settings": {
+        "shape": "waves",
+        "border_size": "90",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "base-accent-2",
+        "enable_custom_shape_color": false,
+        "custom_shape_color": "",
+        "background_color": "base-accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_DXNyjX": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "Have More Questions? Contact Us",
+        "text": "<p>If you have any additional questions, you can send us an email at \"Store Email\"</p>",
+        "button_label": "GET IN TOUCH",
+        "button_link": "shopify://pages/contact",
+        "button_label_2": "",
+        "button_link_2": "",
+        "content_alignment": "center",
+        "heading_font_size": 35,
+        "mobile_heading_font_size": 25,
+        "body_font_size": 16,
+        "heading_color": "#000000",
+        "heading_highlighted_color": "#000000",
+        "body_color": "#302f2f",
+        "body_highlighted_color": "#302f2f",
+        "color_scheme": "accent-1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "feature_icons_TFiRtz": {
+      "type": "feature-icons",
+      "blocks": {
+        "column_g69ftn": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M852-212 732-332l56-56 120 120-56 56ZM708-692l-56-56 120-120 56 56-120 120Zm-456 0L132-812l56-56 120 120-56 56ZM108-212l-56-56 120-120 56 56-120 120Zm246-75 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-361Z\"/></svg>",
+            "title": "",
+            "text": "<p>Craft lasting family memories</p>",
+            "custom_icon_size": 40,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_nqdRJP": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M480-80 120-436l200-244h320l200 244L480-80ZM183-680l-85-85 57-56 85 85-57 56Zm257-80v-120h80v120h-80Zm335 80-57-57 85-85 57 57-85 85ZM480-192l210-208H270l210 208ZM358-600l-99 120h442l-99-120H358Z\"/></svg>",
+            "title": "",
+            "text": "<p>Express your unique style</p>",
+            "custom_icon_size": 40,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_dyTgrP": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"M240-40v-329L110-580l185-300h370l185 300-130 211v329l-240-80-240 80Zm80-111 160-53 160 53v-129H320v129Zm20-649L204-580l136 220h280l136-220-136-220H340Zm98 383L296-558l57-57 85 85 169-170 57 56-226 227ZM320-280h320-320Z\"/></svg>",
+            "title": "",
+            "text": "<p>Eco-friendly and reusable decor</p>",
+            "custom_icon_size": 40,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        },
+        "column_zzh6Lx": {
+          "type": "column",
+          "settings": {
+            "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#1f1f1f\"><path d=\"m520-260 140-140q11-11 17.5-26t6.5-32q0-34-24-58t-58-24q-19 0-37.5 11T520-492q-30-28-47-38t-35-10q-34 0-58 24t-24 58q0 17 6.5 32t17.5 26l140 140Zm336-130L570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM513-160l286-286-353-354H160v286l353 354ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Zm220 160Z\"/></svg>",
+            "title": "",
+            "text": "<p>Add warmth to your space</p>",
+            "custom_icon_size": 40,
+            "icon_heading_font_size": 24,
+            "column_text_size": 15,
+            "custom_icon_color": "#000000",
+            "icon_heading_color": "#000000",
+            "icon_bolded_heading_color": "#000000",
+            "column_text_color": "#000000",
+            "column_text_highlighted_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "column_g69ftn",
+        "column_nqdRJP",
+        "column_dyTgrP",
+        "column_zzh6Lx"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "heading_size": 40,
+        "heading_mob_size": 28,
+        "body_size": 16,
+        "columns_desktop": 4,
+        "padding_horizontal_desktop": 50,
+        "columns_mobile": "2",
+        "icon_size": "large",
+        "swipe_on_mobile": false,
+        "heading_color": "#000000",
+        "bolded_heading_color": "#000000",
+        "body_color": "#000000",
+        "bolded_body_color": "#000000",
+        "background_style": "none",
+        "card_color_scheme": "accent-2",
+        "color_scheme": "accent-1",
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
   "order": [
-    "announcement-bar",
-    "header",
-    "slideshow",
-    "featured-product",
-    "product-grid",
-    "countdown-timer",
-    "testimonials",
-    "newsletter",
-    "footer"
+    "image_banner_TVECWz",
+    "scrolling_images_TY87Nx",
+    "animated_pulsing_BcWKDd",
+    "image_with_text_FFrhby",
+    "feature_icons_MMNaQM",
+    "borders_kfpryb",
+    "key_features_Hcx7NX",
+    "rich_text_BQkeEV",
+    "rich_text_bJjAQw",
+    "rich_text_cDkk6n",
+    "multicolumn_ydmKk4",
+    "borders_qyEgUM",
+    "borders_aQkpfw",
+    "testimonials_2_nHX7mT",
+    "borders_fVa3et",
+    "comparison_table_AfbEir",
+    "borders_RPB7a9",
+    "image_with_text_HFVmpp",
+    "borders_FQhyAq",
+    "collapsible_content_YWm968",
+    "borders_qgCCKj",
+    "rich_text_DXNyjX",
+    "feature_icons_TFiRtz"
   ]
 }

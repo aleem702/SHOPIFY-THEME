@@ -1,0 +1,92 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_information_dHY6Qg": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true,
+            "width_desktop": 12,
+            "text_alignment": "center",
+            "social_icons_alignment": "center"
+          }
+        },
+        "image_cJE8nc": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "image_width": 80,
+            "width_desktop": 3
+          }
+        },
+        "link_list_8CQjix": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Main Menu",
+            "menu": "main-menu",
+            "width_desktop": 3,
+            "heading_color": "#1e1e1e"
+          }
+        },
+        "link_list_dTBDYn": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Footer Menu",
+            "menu": "footer",
+            "width_desktop": 3,
+            "heading_color": "#1e1e1e"
+          }
+        },
+        "contact_list_iT4LHE": {
+          "type": "contact_list",
+          "settings": {
+            "address": "Your address",
+            "address_icon": "",
+            "tel": "Store Phone #",
+            "tel_icon": "",
+            "email": "Store Email",
+            "email_icon": "",
+            "width_desktop": 3,
+            "icon_color": "#1e1e1e",
+            "text_color": "#1e1e1e"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_dHY6Qg",
+        "image_cJE8nc",
+        "link_list_8CQjix",
+        "link_list_dTBDYn",
+        "contact_list_iT4LHE"
+      ],
+      "settings": {
+        "branding_text": "Powered By Atlas",
+        "show_policy": false,
+        "enable_payment_icons": false,
+        "policy_link_size": 12,
+        "payment_icon_size": 20,
+        "copy_color": "#1e1e1e",
+        "brand_color_heading": "#1e1e1e",
+        "brand_color_text": "#1e1e1e",
+        "color_scheme": "accent-2",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

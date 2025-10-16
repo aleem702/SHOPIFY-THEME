@@ -1,0 +1,1 @@
+﻿{"sections":{"header":{"type":"header","settings":{"logo":"","menu":"main-menu"}},"product-grid":{"type":"product-grid","settings":{"heading":"Featured Products","products_to_show":8,"columns_desktop":4}},"footer":{"type":"footer","settings":{"show_social":true}}},"order":["header","product-grid","footer"]}
